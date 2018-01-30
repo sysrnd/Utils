@@ -2,7 +2,7 @@
 #arturoalcibia@hotmail.com
 #finds an specific path from environment vars
 import os
-def findEnv_(envWord, keyWordSection, keywordOne, keywordTwo):
+def findEnv_(envWord = 'MAYA_SCRIPT_PATH', keyWordSection = 'Scripts', keywordOne = 'MKF', keywordTwo = 'RnD'):
 	path = ''
 	try:
 		envVar =os.environ[envWord]
