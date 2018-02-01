@@ -18,5 +18,3 @@ def findEnvVar_(envWord = 'MAYA_SCRIPT_PATH', keyWordSection = 'Scripts', keywor
 
 	return path
 
-print findEnvVar_()
-
