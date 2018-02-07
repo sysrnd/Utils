@@ -1,4 +1,4 @@
-#create dirs in case they dont exist
+
 import os
 import datetime
 import getpass
@@ -37,7 +37,3 @@ class CreateLog(object):
 
 		logName = self.date + '_' + self.user
 		return logName
-
-log = CreateLog()
-log.mainLog('CreateAlembics')
-log.closeLog()
