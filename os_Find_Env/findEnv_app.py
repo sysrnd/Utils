@@ -10,10 +10,9 @@ def findEnvVar_(envWord = 'MAYA_SCRIPT_PATH', keyWordSection = 'Scripts', keywor
 
 	for x in envVar:
 		if x.find(keywordOne) != -1 or x.find(keywordTwo) != -1:
-		    if x.find('Shelves') == -1:
-		    	print x
-			    path =  x
+			if x.find('Shelves') == -1:
+				print x
+				path =  x
 
 	return path
 
-print findEnvVar_()
